@@ -7,6 +7,15 @@ h1 {
 	padding: 20px 0px 20px; 
 	margin: 50px 0px 0px;
 }
+.gallery-title{
+	color: #aa6d1e; 
+	font-family: 'Berkshire Swash', cursive; 
+	line-height: 1.3em; 
+	text-align: center; 
+	padding: 20px 0px 20px; 
+	margin: 50px 0px 0px;
+	font-size: 25px;
+}
 @font-face {
 	font-family: MoonTome-Regular;
 	src: url(assetts/fonts/MoonTime-Regular.otf);
@@ -132,7 +141,7 @@ html, body {height:100%; margin:0; padding:0; background-color: #ffffff; font-fa
 
 /* ==================== CAROUSEL CAPTION */
 .slider-tempat,
-.slider-heading {font-family: 'Crimson Text', serif; font-size: 20px; line-height: 1em; color: #fff;}
+.slider-heading {font-family: 'Crimson Text', serif; font-size: 25px; line-height: 1em; color: #fff;}
 .slider-nama {font-family: 'Alex Brush', cursive; font-size: 68px; color: #fff; line-height: 1.4em;}
 .fa-arrow-circle-down {font-size: 28px; animation: blinker 1.5s linear infinite; margin-top: 10px;}
 @keyframes blinker {50% {opacity: 0;} }
