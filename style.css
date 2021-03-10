@@ -16,6 +16,15 @@ h1 {
 	margin: 50px 0px 0px;
 	font-size: 25px;
 }
+.mepandes-title{
+	color: #aa6d1e; 
+	font-family: 'Berkshire Swash', cursive; 
+	line-height: 0.8em; 
+	text-align: center; 
+	padding: 20px 0px 20px; 
+	margin: 50px 0px 0px;
+	font-size: 33px;
+}
 @font-face {
 	font-family: MoonTome-Regular;
 	src: url(assetts/fonts/MoonTime-Regular.otf);
