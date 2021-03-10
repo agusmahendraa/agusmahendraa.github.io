@@ -1,0 +1,352 @@
+/* ==================== GENERAL */
+h1 {
+	color: #aa6d1e; 
+	font-family: 'Berkshire Swash', cursive; 
+	line-height: 1em; 
+	text-align: center; 
+	padding: 20px 0px 20px; 
+	margin: 50px 0px 0px;
+}
+@font-face {
+	font-family: MoonTome-Regular;
+	src: url(assetts/fonts/MoonTime-Regular.otf);
+  }
+p {
+	color: #333; 
+	font-family: 'Numans', sans-serif; 
+	font-size: 16px; 
+	text-align: center; 
+	line-height: 1.7em;
+	margin: 0px 0px 10px;
+}
+
+/* ==================== MODAL */
+.modal-heading {
+	font-size: 18px; 
+	color: #49655F; 
+	font-family: 'Montserrat', serif; 
+	line-height: 1em; 
+	text-align: center; 
+	padding: 20px 0px;
+	margin: 0px;
+	font-weight: 500;
+	vertical-align: text-top;
+}
+.date-size{
+	font-size: 15px; 
+	color: #49655F; 
+	font-family: 'Montserrat', serif; 
+	line-height: 1em; 
+	text-align: center; 
+	padding: 20px 0px;
+	margin: 0px;
+	font-weight: 500;
+	vertical-align: text-top;
+}
+.overlay-item{
+	text-align: center;
+}
+.wedding-size{
+	font-size: 30px; 
+	color: #49655F; 
+	font-family: 'Montserrat', serif; 
+	line-height: 1em; 
+	text-align: center; 
+	margin: 0px;
+	font-weight: 500;
+}
+.size-nama{
+	font-size: 70px; 
+	color: #49655F; 
+	font-family: 'MoonTome-regular'; 
+	line-height: 1em; 
+	text-align: center; 
+	padding: 20px 0px;
+	margin: 0px;
+	font-weight: 500;
+}
+.modal-nama {
+	font-size: 190px; 
+	color: #49655F; 
+	font-family: 'MoonTome-regular'; 
+	line-height: 1em; 
+	text-align: center; 
+	padding: 20px 0px;
+	margin: 0px;
+	font-weight: 500;
+}
+.modal-open .modal {padding: 0px !important;}
+.modal-dialog {width: 100%; max-width: none; height: 100%; margin: 0;}
+.modal-body {height: 100%;}
+.modal-content {
+	background-image: url(images/slider/slider1.jpg); 
+	padding: 15% 0px 0px; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 100%; 
+	border: 0; 
+	border-radius: 0;
+	z-index: 999;
+}
+
+.modal-overlay{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #DAF4DE;
+}
+.btn-modal {
+	background: #aa6d1e; 
+	color: #fff; 
+	font-family: 'Numans', sans-serif; 
+	font-size: 16px; 
+	border-radius: 0px; 
+	padding: 10px 25px; 
+}
+span.modal-copyright {
+	color: #333; 
+	font-family: 'Numans', sans-serif; 
+	font-size: 13px; 
+	display: block; 
+	position: absolute; 
+	bottom: 20px; 
+	right :20px;
+}
+a.modal-link {color: #aa6d1e;}
+
+/* ==================== CAROUSEL FULL HEIGHT SETTING */
+html, body {height:100%; margin:0; padding:0; background-color: #ffffff; font-family: 'Numans', sans-serif; color: #333;}
+.carousel, .item, .active {height:100%;}
+.carousel-inner {height:100%;}
+.carousel-caption {position: fixed; bottom: 13%; left: 5% !important; right: 5% !important;}
+.carousel .item {background-color: #777;}
+.carousel .carousel-inner .bg {background-repeat:no-repeat; background-size: cover!important;}
+.carousel .carousel-inner .bgdigitalbali {background-position: center center; background-attachment: inherit;}
+.carousel-indicators .active {background-color: #8a6d3b;}
+.carousel-indicators li {border: 0.5px solid #8a6d3b!important;}
+.carousel.carousel-mobile {display: none;}
+
+/* ==================== CAROUSEL CAPTION */
+.slider-tempat,
+.slider-heading {font-family: 'Crimson Text', serif; font-size: 20px; line-height: 1em; color: #fff;}
+.slider-nama {font-family: 'Alex Brush', cursive; font-size: 68px; color: #fff; line-height: 1.4em;}
+.fa-arrow-circle-down {font-size: 28px; animation: blinker 1.5s linear infinite; margin-top: 10px;}
+@keyframes blinker {50% {opacity: 0;} }
+
+/* ==================== MEMPELAI */
+.frame {width: 300px; height: 300px;}
+.mempelai .mempelai-foto {
+	width: 300px; 
+	height: 300px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.mempelai .mempelai-foto.mempelai-foto-pria {
+	background-position: center -100px !important; 
+	background-size: 190% !important; 
+	background-repeat: no-repeat !important;
+}
+.mempelai .mempelai-foto.mempelai-foto-wanita {
+	background-position: center -100px !important; 
+	background-size: 190% !important; 
+	background-repeat: no-repeat !important;
+}
+.mempelai .mempelai-nama {
+	color: #aa6d1e; 
+	text-align: center; 
+	line-height: 1em; 
+	font-family: 'Crimson Text', serif; 
+	font-size: 34px; 
+	font-weight: 600; 
+	margin-bottom: 15px;
+}
+.mempelai .mempelai-detail {
+	font-size: 16px; 
+	text-align: center; 
+	padding: 0px 0px 50px;
+}
+
+/* ==================== COUNTDOWN */
+.countdown {margin-bottom: 50px;}
+.timer {
+	text-align: center; 
+	font-weight: 400; 
+	font-size: 16px;
+	padding: 20px 0px;
+}
+.timer p {
+	font-size: 40px; 
+	line-height: 1.2em; 
+	padding-bottom: 0px !important; 
+}
+
+/* ==================== ACARA */
+.acara-background {
+	background-position: center center !important; 
+	background-size: cover !important;
+	padding: 70px 20% !important; 
+}
+.acara-overlay:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.66) 0%, #ffffff 100%);
+}
+.acara-heading {
+	color: #aa6d1e; 
+	font-family: 'Berkshire Swash', cursive; 
+	font-size: 34px; 
+}
+.acara-detail {font-size: 16px;}
+.btn-map {
+	background: #333; 
+	color: #fff; 
+	font-size: 16px; 
+	border-radius: 0px; 
+	padding: 10px 15px;
+}
+.acara-divider {
+	width: 100%; 
+	height: 2px; 
+	background: #333; 
+	border-radius: 5px; 
+	margin: 50px auto !important;
+}
+
+/* ==================== COVID */
+img.banner-covid {width: 50%;}
+
+/* ==================== DOA */
+.doa {margin-top: 50px;}
+.doa p:before {
+	content:'\f10d';
+	font-family: 'FontAwesome';
+	font-size: 22px;
+	color: #aa6d1e;
+}
+
+/* ==================== GALLERY */
+.photo {margin: 0px 0px 0px;}
+.img-fluid {
+	height: 100%; 
+	width: 100%; 
+	object-fit:cover; 
+	-o-object-fit:cover;
+}
+.items {padding: 1px; height: 350px;}
+.items a:focus{outline: none;}
+.items a:after{
+	content:"\f004";
+	font-family: 'FontAwesome';
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 1px;
+	left: 1px;
+	top: 1px;
+	bottom: 1px;
+	text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.items a:hover:after{opacity: 1;}
+
+/* ==================== RSVP Form*/
+#rsvp {
+	background-image: linear-gradient(rgba(255,255,255,0), rgba(170,109,30,0.10)); 
+	border-bottom: 1.5px solid rgba(170,109,30,0.6);
+	padding-bottom: 50px;
+}
+.form-control {border-radius: 0px; height: 50px;}
+label {color: #aa6d1e;}
+.btn-rsvp {border-radius: 0px; background: #aa6d1e; border: 0px;}
+.alert-success {
+	color: #aa6d1e; 
+	background-color: #f5f6f7; 
+	border-color: #aa6d1e; 
+	border-radius: 0px; 
+	margin: 20px 0px 0px; 
+	animation: blinker 1.5s linear infinite;
+}
+
+/* ==================== RSVP Kehadiran*/
+table.dataTable {font-family: 'Numans', sans-serif; font-size: 16px;}
+table.dataTable thead th, table.dataTable thead td {padding: 10px 18px;border-bottom: 0px solid #111;}
+table.dataTable.no-footer {border-bottom: 0px solid #111;}
+.dataTables_wrapper .dataTables_filter label, .dataTables_wrapper .dataTables_length label {color: #333;}
+.dataTables_wrapper .dataTables_filter input {background: #fff; border: 1px solid #333;}
+
+/* ==================== KOMENTAR */
+.komentar {text-align: center; margin: 0px 0px 50px;}
+
+/* ==================== MUSIC */
+#button {
+	position: fixed;
+    bottom: 10px;
+    padding: 10px 15px 5px 15px;
+    background-color: #aa6d1e;
+    right: 10px;
+    color: #fff;
+    font-size: 26px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+/* ==================== FOOTER */
+.footer {
+	background-color: #88520b; 
+	color: #fff;
+	padding: 10px 0px; 
+}
+.footer a {text-align: center; color: #fff; text-decoration: none; padding: 0px 10px; font-size: 32px; line-height: 1em;}
+.footer a:hover {color: #aa6d1e;}
+
+/* Custom CSS for 980px or mobile version */
+@media all and (max-width: 980px) {
+
+	/* ==================== GENERAL */
+	p {font-size: 14px;}
+
+	/* ==================== MODAL */
+	.modal-content {background-position: center center;}
+	.modal-nama {font-size: 28px;}
+
+	/* ==================== CAROUSEL FULL HEIGHT SETTING */
+	.carousel.carousel-desktop {display: none;}
+	.carousel.carousel-mobile {display: block;}
+	
+	/* ==================== CAROUSEL CAPTION */
+	.slider-tempat,
+	.slider-heading {font-size: 18px;}
+	.slider-nama {font-size: 48px;}
+
+	/* ==================== ACARA */
+	.acara-background {
+		background-position: center center !important; 
+		padding: 50px 0% !important; 
+	}
+	.acara-divider {
+		width: 60%; 
+	}
+
+	/* ==================== COVID */
+	img.banner-covid {width: 100%;}
+
+	/* ==================== GALLERY */
+	.items a:after{line-height: 250px;}
+	.items,
+	.items.lanscape {height: 250px;}
+
+}
