@@ -431,57 +431,15 @@
     <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
       
    
-      <form  method="POST" name="google-sheet">
-               
-    
-
-        <div class="form-group">
-        	<label>Nama Tamu</label>
-         	  <input type="text" name="Nama Tamu" placeholder="Nama tamu wajib diisi ya :)" class="form-control" required>
-        </div>
-
-        <div class="form-group">
-         	<label>Konfirmasi Kehadiran</label>
-           <select name="Konfirmasi Kehadiran" class="form-control">
-     		      <option value="Hadir">Hadir</option>
-      				<option value="Tidak Hadir">Tidak Hadir</option>
-      				<option value="Ragu">Ragu</option>
-  		      </select>
-        </div>
-
-        <div class="form-group">
-          <label>Jumlah Orang</label>
-           <select name="Jumlah Tamu" class="form-control">
-    		      <option value="1">1</option>
-    			    <option value="2">2</option>
-    			    <option value="3">3</option>
-    			    <option value="4">4</option>
-    			    <option value="5">5</option>
-    			    <option value="6">6</option>
-    			    <option value="7">7</option>
-    			    <option value="8">8</option>
-    			    <option value="9">9</option>
-    			    <option value="10">10</option>
-  				  </select>
-        </div>
+   
                 
         <div class="form-group text-center">
           <button type="submit" name="submit" value="submit" class="btn btn-lg btn-primary btn-rsvp">Kirim</button>
         </div>
 
-      </form>
-
-      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzyfYnFb6L0w5MuFp9DEZJUJ6o6vwSoBC4JydV40FNQFkBYFwrojxlMUXI0WIU6bEqw/exec'
-        const form = document.forms['google-sheet']
       
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => alert("Terima Kasih telah mengkonfirmasi kehadiran"))
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
+
+   
 
           
     </div>
